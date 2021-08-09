@@ -1,0 +1,16 @@
+picture {
+  margin: 0 auto;
+  display: block;
+}
+
+@media (min-width: 993px) {
+  picture {
+    width: 100%;
+    /* display: block required for PixelTab */
+    display: block;
+  }
+}
+
+picture img {
+  width: 100%;
+}
