@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "sass ./scss/app.scss ./css/style.css",
+    "start": "sass ./scss/app.scss ./css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "minify": "sass ./scss/app.scss ./css/style.css --style compressed",
     "watch": "sass --watch ./scss/app.scss:./css/style.css"
   },
