@@ -42,6 +42,16 @@
 }
 /* do not touch this */
 
+.flex-container-01 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-01 > :nth-child(4) {
+  align-self: center;
+}
+
 .flex-container-02 {
   display: flex;
   justify-content: center;
@@ -54,6 +64,16 @@
   width: auto;
 }
 
+.flex-container-03 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 > div:nth-of-type(2) {
+  align-self: flex-start;
+}
+
 .flex-container-04 {
   display: flex;
   align-items: flex-end;
@@ -62,4 +82,26 @@
 
 .flex-container-04 :last-child {
   align-self: center;
+}
+
+.flex-container-05 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flex-3 {
+  align-self: stretch;
+  height: auto;
+  width: auto;
+}
+
+.flex-container-06 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-container-06 > .flex-item:nth-of-type(4) {
+  align-self: flex-end;
 }
