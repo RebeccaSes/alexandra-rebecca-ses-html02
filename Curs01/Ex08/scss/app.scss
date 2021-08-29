@@ -6,27 +6,57 @@
   margin: auto; // bug in pixeltab
 }
 
-%square {
+.square {
   width: 200px;
   height: 200px;
   border: 1px solid black;
   background-color: turquoise;
 }
 
+.circles {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin: auto; // bug in pixeltab
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  border: 1px solid black;
+}
+
 .square-purple {
-  @extend %square;
+  @extend .square;
 
   background-color: purple;
 }
 
 .square-magenta {
-  @extend %square;
+  @extend .square;
 
   background-color: magenta;
 }
 
 .square-peru {
-  @extend %square;
+  @extend .square;
 
   background-color: peru;
+}
+
+.circle-red {
+  @extend .circle;
+  background-color: red;
+}
+
+.circle-green {
+  @extend .circle;
+  background-color: green;
+}
+
+.circle-blue {
+  @extend .circle;
+  background-color: blue;
 }
