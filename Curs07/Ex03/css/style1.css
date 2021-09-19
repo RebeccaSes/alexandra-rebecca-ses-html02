@@ -15,9 +15,9 @@ body {
   to {
     color: white;
   }
-} */
+}  */
 
-/* @keyframes loader {
+@keyframes loader {
   from {
     opacity: 1;
   }
@@ -25,7 +25,7 @@ body {
   to {
     opacity: 0;
   }
-} */
+}
 
 .loader {
   animation: loader 1.5s linear infinite forwards alternate;
