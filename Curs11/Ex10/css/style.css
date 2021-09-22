@@ -13,6 +13,8 @@
 
 .grid-item-2 {
   background-color: lightcoral;
+  justify-self: center;
+  align-self: start;
 }
 
 .grid-item-3 {
@@ -23,6 +25,8 @@
 
 .grid-item-4 {
   background-color: lightsalmon;
+  justify-self: start;
+  align-self: start;
 }
 
 .grid-item-5 {
